@@ -1,0 +1,28 @@
+{
+  "name": "u41_knex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devstart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.17.1",
+    "handlebars": "^4.7.6",
+    "knex": "^0.21.16",
+    "mysql": "^2.18.1",
+    "newsapi-wrapper": "^1.0.6",
+    "promise-mysql": "^3.3.2",
+    "request-promise": "^4.2.6"
+  }
+}
